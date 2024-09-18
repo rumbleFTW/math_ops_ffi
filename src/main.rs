@@ -1,9 +1,8 @@
-use math_ops_ffi::{add_cpp, subtract_cpp};
-
+include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 fn main() {
-    let result_add = add_cpp(5, 3);
+    let result_add = unsafe { add(5, 3) };
     println!("5 + 3 = {}", result_add);
 
-    let result_subtract = subtract_cpp(10, 4);
+    let result_subtract = unsafe { subtract(10, 4) };
     println!("10 - 4 = {}", result_subtract);
 }
