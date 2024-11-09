@@ -1,6 +1,6 @@
 # Rust & C++ FFI Example
 
-This repository demonstrates how to call C++ functions from Rust using the Foreign Function Interface (FFI). It showcases a simple math operations library implemented in C++ and called from Rust. [blog](https://rumbleftw.github.io/posts/ffi-basics-in-rust/)
+This is a simple demo on how to call C++ functions from Rust using the Foreign Function Interface (FFI). It showcases a simple math operations library implemented in C++ and called from Rust. [blog](https://rumbleftw.github.io/posts/ffi-basics-in-rust/)
 
 ## About FFI
 
